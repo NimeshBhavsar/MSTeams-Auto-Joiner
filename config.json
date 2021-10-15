@@ -30,25 +30,9 @@
       ]
     },
      {
-      "team_name": "NOTES SHARING TEAM - VITrendz",
+      "team_name": "Example Team 1",
       "channel_names": [
       ]
     },
-    {
-      "team_name": "My Team",
-      "channel_names": [
-      ]
-    },
-    {
-      "team_name": "VIT CSE 2020-2024",
-      "channel_names": [
-      ]
-    },
-    {
-      "team_name": "1st year CSE students.",
-      "channel_names": [
-      ]
-    }
-  ],
   "blacklist_meeting_re": ""
 }

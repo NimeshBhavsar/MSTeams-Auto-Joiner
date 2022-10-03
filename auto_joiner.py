@@ -188,7 +188,13 @@ def init_browser():
         print("Resized window height")
         browser.set_window_size(window_size['width'], 850)
 
+def join_repeat(sel,time_now, repeat_cycle):
+    try:
+        element_present = EC.visibility_of_element_located((By.CSS_SELECTOR, sel))
+        WebDriverWait(browser, timeout).until(element_present)
 
+        return browser.find_element_by_css_selector(sel)
+    
 def wait_until_found(sel, timeout, print_error=True):
     try:
         element_present = EC.visibility_of_element_located((By.CSS_SELECTOR, sel))

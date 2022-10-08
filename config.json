@@ -1,5 +1,5 @@
 {
-  "__comment":"The use of these functions will be shared soon",
+  "__comment":"Comments are text notes added to the program to provide explanatory information about the source code.",
   "email": "emailaddress@gmail.com",
   "password": "Password",
 
@@ -24,7 +24,7 @@
 
   "blacklist": [
     {
-      "team_name": "Example Team 1",
+      "team_name": "Intern_Chahiye",
       "channel_names": [
         "First Channel to blacklist in this team",
         "Second Channel to blacklist"
